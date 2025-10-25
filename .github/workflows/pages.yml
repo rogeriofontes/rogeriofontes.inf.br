@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Build & Export static
-        run: npm run export
+        run: npm run build
 
       - name: Add .nojekyll (safety)
         run: touch out/.nojekyll
