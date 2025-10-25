@@ -1,0 +1,58 @@
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+.npm/
+.cache/
+coverage/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor & IDEs
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Export / static output (Next export)
+out/
+exported/
+public/.nojekyll
+
+# Local test servers
+serve.json
+
+# Optional lock files (uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# GitHub Actions cache
+.github/workflows/*.cache
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

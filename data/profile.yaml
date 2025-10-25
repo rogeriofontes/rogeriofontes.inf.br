@@ -1,0 +1,50 @@
+name: "Rogério Fontes Tomaz"
+headline: "Arquiteto de Software | Java & Go | Cloud & Segurança"
+location: "Uberlândia, MG, Brasil"
+email: "contato@rogeriofontes.inf.br"
+short_bio: |
+  Arquiteto hands-on, especialista em Sistemas e Cloud, professor universitário e pesquisador em Green IT.
+  Foco em Spring Boot 3/Java 21, Go, AWS/Azure, DDD e Segurança.
+bio : |
+  Rogério Fontes Tomaz é Arquiteto de Software com mais de 18 anos de experiência em desenvolvimento de sistemas corporativos.
+  Especialista em arquiteturas baseadas em microserviços, DDD, Cloud Computing (AWS e Azure) e segurança da informação.
+  Professor universitário e pesquisador na área de Green IT, com diversas publicações acadêmicas.
+  Rogério é apaixonado por tecnologia, inovação e boas práticas de desenvolvimento de software.
+academic_positions:
+  - title: "Professor Horista"
+    institution: Faculdade UNA de Uberlândia (UNA)"
+    period: "2015 - Presente"
+    description: "Ministro disciplinas relacionadas a Engenharia de Software, Arquitetura de Sistemas e Cloud Computing."
+  - title: "Pesquisador"
+    institution: "Laboratório de Pesquisa em Green IT - Triângulo Hackersapace"
+    period: "2016 - Presente"
+    description: "Atuo em pesquisas voltadas para a eficiência energética em data centers e práticas sustentáveis em TI."
+  - title: "Mestrado em Ciências Ambientais"
+    institution: "UEMG - Universidade do Estado de Minas Gerais"
+    period: "2022 - Defesa em junho de 2024"
+    description: "Título: DESENVOLVIMENTO DE UM APLICATIVO CELULAR PARA INTEGRAÇÃO ENTRE COOPERATIVAS DE RECICLAGEM COM OS CATADORES QUE COLABORAM COM O UNIVERSO DA COLETA DE LIXO RECICLÁVEL"
+  - title: "Pós-Graduação em Software Architecture (FIAP)"
+    institution: Faculdade FIAP"
+    period: "2023 - 2024"
+    description: "Hackathon FIAP de Arquitetura de Software - SelectMotors - Aplicação microserviços para o setor automotivo."
+  - title: "Especialização em Desenvolvimento Java"
+    institution: "Faculdade Unitri de Uberlândia"
+    period: "2014 - 2015"
+    description: "Balder Education - Aplicação de Adultos - Curso de especialização focado em desenvolvimento Java EE e frameworks Spring."
+  - title: "Especialização em Docência no Ensino Superior"
+    institution: "Faculdade FATCE"
+    period: "2010 - 2011"
+    description: "Curso focado em metodologias de ensino e práticas pedagógicas para o ensino superior."
+  - title: "Aperfeiçoamento em Sistemas de Comunicações Móveis"
+    institution: "Faculdade ESAB"
+    period: "2011 - 2012"
+    description: "Curso focado em tecnologias de comunicação móvel e redes sem fio."
+  - title: "Graduação em Sistemas de Informação"
+    institution: "Faculdade FPU de Uberlândia"
+    period: "2002 - 2010"
+    description: "Curso focado em desenvolvimento de software, banco de dados e redes de computadores."
+professional_experience:
+  - title: "Arquiteto de Software Sênior"
+    company: "NTTDATA Latam"
+    period: "2020 - Presente"   
+    description: "Responsável pela arquitetura de soluções em nuvem e microserviços, utilizando Java e Go." 

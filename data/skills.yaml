@@ -1,0 +1,6 @@
+- group: "Linguagens"
+  items: ["Java 7/25", "Go", "JavaScript", "Python", "TypeScript", "SQL", "PHP"]
+- group: "Cloud & DevOps"
+  items: ["AWS (EC2, ECS, Lambda, RDS)", "Azure", "Terraform", "Docker", "GitHub Actions"]
+- group: "Arquitetura"
+  items: ["DDD/Hexagonal", "Microserviços", "Resiliência", "Event-Driven", "Zero Trust", "CQRS"]

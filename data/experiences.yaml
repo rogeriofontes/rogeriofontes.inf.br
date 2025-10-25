@@ -1,0 +1,11 @@
+- role: "Arquiteto de Software - Especialista de sistemas e Cloud"
+  company: "NTT DATA Latam"
+  start: "07/2020"
+  end: "presente"
+  summary: |
+    Arquitetura e Liderança técnica em projetos cloud-native com Java/Go, DDD e automação AWS.
+- role: "Professor Universitário"
+  company: "Faculdade Una Uberlândia"
+  start: "02/2023"
+  end: "presente"
+  summary: "UC - Sistemas Distribuídos e Mobile. \n UC - Ambientes computacionais e segurança. \n UC - Ambientes computacionais e conectividade. \n UC - Usabilidade, desenvolvimento web, mobile, jogos. \n UC - Programação de soluções computacionais. \n UC - Modelagem de software."
