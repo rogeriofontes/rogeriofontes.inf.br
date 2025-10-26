@@ -2,21 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-/* White + Blue theme */
+/* White + Black theme */
 :root { color-scheme: light; }
 html, body { background-color: #ffffff; }
 
 /* Links */
-a { color: #1d4ed8; }
-a:hover { color: #1e40af; }
+a { color: #111111; }          /* preto */
+a:hover { color: #000000; }    /* preto mais forte */
 
 /* Helpers */
 .container { @apply max-w-6xl mx-auto px-4; }
-.card { @apply bg-white rounded-2xl shadow-sm p-5 border border-blue-100; }
-.section-title { @apply text-2xl font-bold text-blue-800 mb-4; }
+.card { @apply bg-white rounded-2xl shadow-sm p-5 border border-gray-200; }
+.section-title { @apply text-2xl font-bold text-gray-900 mb-4; }
 
 /* Navbar */
-.navbar { @apply sticky top-0 z-50 shadow-sm; background: #1e3a8a; } /* blue-800 */
+.navbar { @apply sticky top-0 z-50 shadow-sm; background: #000000; } /* preto */
 .navbar-inner { @apply container flex items-center justify-between; min-height: 72px; }
 .brand { @apply font-bold text-white text-lg; }
-.nav a { @apply text-white/90 hover:text-white text-sm; }
+.nav a { @apply text-white/90 hover:text-gray-300 text-sm; }
+
+/* Botões utilitários (se você usa) */
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition; }
+.btn-primary { @apply bg-black text-white hover:bg-gray-900 shadow; }
+.btn-ghost { @apply text-black hover:text-gray-800; }
+
+/* Chips/Badges (se estiver usando azul antes) */
+.chip { @apply px-3 py-1 rounded-full bg-gray-100 text-gray-700 text-sm ring-1 ring-gray-200; }
+.badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700 ring-1 ring-inset ring-gray-200; }

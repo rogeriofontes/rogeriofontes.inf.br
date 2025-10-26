@@ -21,7 +21,7 @@ export default function Home() {
           priority
           unoptimized />
         <div>
-          <h1 className="text-3xl font-bold text-blue-900">{profile?.name}</h1>
+          <h1 className="text-3xl font-bold text-black-900">{profile?.name}</h1>
           <p className="text-gray-700">{profile?.headline}</p>
           {profile?.especiality && (
             <ul className="mt-2 list-disc list-inside text-gray-700">
@@ -31,7 +31,7 @@ export default function Home() {
             </ul>
           )}  
           <div className="mt-2 flex gap-3 text-sm">
-            <div className="mt-3 flex gap-4 text-blue-700">
+            <div className="mt-3 flex gap-4 text-black-700">
               {socials.linkedin && (
                 <a href={socials.linkedin} target="_blank" rel="noreferrer" title="LinkedIn" className="hover:text-blue-800">
                   <Linkedin size={22} />
@@ -76,7 +76,7 @@ export default function Home() {
           {experiences.map((e: any, idx: number) => (
             <div key={idx} className="card">
               <div className="flex items-baseline justify-between">
-                <h3 className="font-semibold text-blue-900">{e.role} — {e.company}</h3>
+                <h3 className="font-semibold text-black-900">{e.role} — {e.company}</h3>
                 <span className="text-sm text-gray-500">{e.start} – {e.end}</span>
               </div>
               <p className="text-sm mt-2 whitespace-pre-line">{e.summary}</p>

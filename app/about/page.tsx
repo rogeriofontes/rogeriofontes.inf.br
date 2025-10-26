@@ -4,12 +4,12 @@ export default function About() {
   const p = getProfile() as any;
   return (
     <article className="prose max-w-none">
-      <h1 className="text-3xl font-bold text-blue-900">Sobre</h1>
+      <h1 className="text-3xl font-bold text-black-900">Sobre</h1>
       <p>{p?.short_bio}</p>
       <br />
       <p>{p?.bio}</p>
       <br />
-      <h2 className="text-2xl font-bold text-blue-800">Experiência Acadêmica</h2>
+      <h2 className="text-2xl font-bold text-black-800">Experiência Acadêmica</h2>
       <ul>
         {p?.academic_positions.map((pos: any, index: number) => (
           <li key={index}>
@@ -19,7 +19,7 @@ export default function About() {
           </li>
         ))}
       </ul>
-      <h2 className="text-2xl font-bold text-blue-800">Experiência Profissional</h2>
+      <h2 className="text-2xl font-bold text-black-800">Experiência Profissional</h2>
       <ul>
         {p?.professional_experience.map((exp: any, index: number) => (
           <li key={index}>
