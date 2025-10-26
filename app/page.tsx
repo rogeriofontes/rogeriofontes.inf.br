@@ -1,6 +1,7 @@
 import { getProfile, getSkills, getSocials, getExperiences } from '@/lib/data';
 import SkillChips from '@/components/SkillChips';
 import Image from 'next/image';
+import avatar from '@/public/images/rogeriofontes.jpeg'; // <-- import estático
 
 export default function Home() {
   const profile = getProfile() as any;
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section className="flex items-center gap-6">
-        <Image src="/images/rogeriofontes.jpeg" 
+        <Image src={avatar} 
                alt="Avatar" 
                width={188} 
                height={188} 
