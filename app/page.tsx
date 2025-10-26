@@ -11,7 +11,13 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section className="flex items-center gap-6">
-        <Image src="/images/rogeriofontes.jpeg" alt="Avatar" width={188} height={188} className="rounded-full" />
+        <Image src="/images/rogeriofontes.jpeg" 
+               alt="Avatar" 
+               width={188} 
+               height={188} 
+               className="rounded-full" 
+               priority 
+               unoptimized />
         <div>
           <h1 className="text-3xl font-bold text-blue-900">{profile?.name}</h1>
           <p className="text-gray-700">{profile?.headline}</p>
@@ -29,7 +35,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="section-title">Skills</h2>
+        <h2 className="section-title">Habilidades</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {skills.map((g: any) => (
             <SkillChips key={g.group} group={g.group} items={g.items} />
