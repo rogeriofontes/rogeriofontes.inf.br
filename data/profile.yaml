@@ -1,5 +1,12 @@
 name: "Rogério Fontes Tomaz"
-headline: "Arquiteto de Software | Java & Go | Cloud & Segurança"
+headline: "Arquiteto de Software e Professor Universitário"
+especiality:
+  - "Arquiteto de soluções e sistemas"
+  - "Desenvolvimento Java & Go"
+  - "Cloud Computing (AWS & Azure)"
+  - "Segurança da Informação"
+  - "Professor Universitário"
+  - "Pesquisador em Green IT"
 location: "Uberlândia, MG, Brasil"
 email: "contato@rogeriofontes.inf.br"
 short_bio: |
