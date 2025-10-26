@@ -1,5 +1,6 @@
 import { getProfile, getSkills, getSocials, getExperiences } from '@/lib/data';
 import SkillChips from '@/components/SkillChips';
+import Image from 'next/image';
 
 export default function Home() {
   const profile = getProfile() as any;
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section className="flex items-center gap-6">
-        <img src="/images/rogeriofontes.jpeg" alt="Avatar" width={188} height={188} className="rounded-full" />
+        <Image src="/images/rogeriofontes.jpeg" alt="Avatar" width={188} height={188} className="rounded-full" />
         <div>
           <h1 className="text-3xl font-bold text-blue-900">{profile?.name}</h1>
           <p className="text-gray-700">{profile?.headline}</p>
